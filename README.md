@@ -9,11 +9,12 @@ on the [Alpaca platform](https://www.alpaca.travel/).
 
 ## Documentation
 
-- [Standard Embed](/docs/Standard%20Embed/)
+- [Standard Embed](https://alpacatravel.github.io/embed-docs/docs/Standard%20Embed/)
 
 ## Examples
 
-- [Standard Embed](/examples/standard%20embed/)
+- [Standard Embed](https://alpacatravel.github.io/embed-docs/examples/standard%20embed/)
+- [Standard Embed, custom container](https://alpacatravel.github.io/embed-docs/examples/standard%20embed%20custom%20container/)
 
 **See also**
 

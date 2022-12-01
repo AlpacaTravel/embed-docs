@@ -101,6 +101,38 @@ any of the existing content with this element.
 
 Typically, the CSS applied is `flex: 1; border: 0`, although this can change.
 
+## Linking to resources
+
+The `src` attribute of the script tag contains a reference to the embed script
+code.
+
+Typically, the `src` attribute url will be similar to the following:
+
+```
+https://made.withalpaca.travel/api/v3/embed/itinerary/123
+```
+
+The above example contains the `itinerary/123` section, which refers to an
+itinerary ID.
+
+You can obtain this reference to other Itineraries you author from inside the
+Alpaca Platform.
+
+It is also possible using our GraphQL API in order to locate other itineraries
+if you are linking to them from your application.
+
+### Deep Linking to a Location
+
+You can also modify the `src` attribute of the script tag in order to link to
+a deeper element within the embed.
+
+You will need to identify the itinerary location ID, which should appear to be
+similar to the format of `itinerary/123/location/234`.
+
+```
+https://made.withalpaca.travel/v3/embed/itinerary/123/location/234
+```
+
 ## CDN and Caching
 
 Alpaca serves the script tag via its' CDN service in order to make this script

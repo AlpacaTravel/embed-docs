@@ -10,6 +10,7 @@ on the [Alpaca platform](https://www.alpaca.travel/).
 ## Documentation
 
 - [Standard Embed](https://alpacatravel.github.io/embed-docs/docs/Standard%20Embed/)
+- [Google Analtics - GA4](docs/GA4%20Analytics.md)
 
 ## Examples
 

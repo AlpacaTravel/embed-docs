@@ -9,7 +9,7 @@ place the embed on to your page.
 <!-- Include an itinerary at the location of the script tag -->
 <script
   type="text/javascript"
-  src="https://made.withalpaca.travel/v3/embed/itinerary/123"
+  src="https://made.withalpaca.travel/api/v3/embed/itinerary/123"
   async
 ></script>
 ```
@@ -68,7 +68,7 @@ should place the embed within.
 <!-- Tell the script tag to mount into my_container -->
 <script
   type="text/javascript"
-  src="https://made.withalpaca.travel/v3/embed/itinerary/123"
+  src="https://made.withalpaca.travel/api/v3/embed/itinerary/123"
   data-container-id="my_container"
   async
 ></script>
@@ -130,7 +130,7 @@ You will need to identify the itinerary location ID, which should appear to be
 similar to the format of `itinerary/123/location/234`.
 
 ```
-https://made.withalpaca.travel/v3/embed/itinerary/123/location/234
+https://made.withalpaca.travel/api/v3/embed/itinerary/123/location/234
 ```
 
 ## CDN and Caching

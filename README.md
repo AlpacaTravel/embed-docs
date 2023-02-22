@@ -9,7 +9,12 @@ on the [Alpaca platform](https://www.alpaca.travel/).
 
 ## Documentation
 
-- [Standard Embed](https://alpacatravel.github.io/embed-docs/docs/Standard%20Embed/)
+- [Script Based Embed](https://alpacatravel.github.io/embed-docs/docs/Script%20Based%20Embed/)
+- [IFrame Based Embed](https://alpacatravel.github.io/embed-docs/docs/IFrame%20Based%20Embed/)
+- [oEmbed](https:https://alpacatravel.github.io/embed-docs/docs/oEmbed/)
+
+### Additional Topics
+
 - [Google Analytics - GA4](https://alpacatravel.github.io/embed-docs/docs/GA4%20Analytics/)
 
 ## Examples

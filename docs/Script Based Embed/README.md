@@ -1,4 +1,4 @@
-# Standard Embed
+# Script Based Embed
 
 ## Basic Usage
 
@@ -161,6 +161,9 @@ The valid customisations you can use are;
 
 Ideally, a combination of `minHeight`, `maxHeight` and `aspectRatio` are
 preferred.
+
+Please note: Aspect ratio is only used when one defining axis is provided (e.g.
+width=100%). The constraints (max/min heights and widths) are applied after.
 
 ## CDN and Caching
 

@@ -133,6 +133,35 @@ similar to the format of `itinerary/123/location/234`.
 https://made.withalpaca.travel/v3/embed/itinerary/123/location/234
 ```
 
+### Controlling heights, widths and aspect ratios
+
+You can control the min/max width and height as well as an aspect ratio for
+the container that is created by the script.
+
+In order achieve this, you will need to pass in the values as query parameters
+to your script include;
+
+```html
+<script
+  type="text/javascript"
+  src="https://made.withalpaca.travel/v3/embed/itinerary/123?aspectRatio=4/3&minHeight=600&maxHeight=800"
+  async
+></script>
+```
+
+The valid customisations you can use are;
+
+- `width` (string) 'width' CSS style
+- `height` (string) 'height' CSS style
+- `minWidth` (string) 'min-width' CSS style
+- `maxWidth` (string) 'max-width' CSS style
+- `minHeight` (string) 'min-height' CSS style
+- `maxHeight` (string) 'max-height' CSS style
+- `aspectRatio` (string; must match "number/number") 'aspect-ratio' CSS style
+
+Ideally, a combination of `minHeight`, `maxHeight` and `aspectRatio` are
+preferred.
+
 ## CDN and Caching
 
 Alpaca serves the script tag via its' CDN service in order to make this script

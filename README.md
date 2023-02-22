@@ -19,8 +19,8 @@ on the [Alpaca platform](https://www.alpaca.travel/).
 
 ## Examples
 
-- [Standard Embed](https://alpacatravel.github.io/embed-docs/examples/standard%20embed/)
-- [Standard Embed, custom container](https://alpacatravel.github.io/embed-docs/examples/standard%20embed%20custom%20container/)
+- [Script Embed](https://alpacatravel.github.io/embed-docs/examples/script%20embed/)
+- [Script Embed, custom container](https://alpacatravel.github.io/embed-docs/examples/script%20embed%20with%20custom%20container/)
 
 **See also**
 

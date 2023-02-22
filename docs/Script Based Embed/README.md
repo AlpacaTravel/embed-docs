@@ -17,6 +17,11 @@ place the embed on to your page.
 This script tag is placed within your HTML at the desired location to place
 the embed.
 
+Examples:
+
+- [Script Embed](https://alpacatravel.github.io/embed-docs/examples/script%20embed/)
+- [Script Embed, custom container](https://alpacatravel.github.io/embed-docs/examples/script%20embed%20with%20custom%20container/)
+
 ## Script Behaviour
 
 The script will automatically create a container `HTMLDivElement` on your page,

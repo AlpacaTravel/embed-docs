@@ -1,3 +1,8 @@
+[//]: # "Title: IFrame Embed"
+[//]: # "Weight: 4"
+[//]: # "Layout: 1-col"
+[//]: # "TOC: false"
+
 # IFrame Based Embed
 
 ## Using iframes to embed Alpaca Travel itineraries
@@ -30,6 +35,12 @@ speaking to your web development team about extending your CMS to allow you to
 paste in HTML, or adding oEmbed protocol support. This can provide a more
 flexible and user-friendly way to embed Alpaca Travel itineraries into your
 website.
+
+<aside class="info">
+  Using the IFrame code will require you take control of sizing and responsive
+  behaviour of the window, but offers developers more control over how they
+  present and include the embed on their site.
+</aside>
 
 ## Example HTML for iFrame
 

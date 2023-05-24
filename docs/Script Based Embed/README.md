@@ -1,3 +1,6 @@
+[//]: # "Title: Script Embed"
+[//]: # "Weight: 3"
+
 # Script Based Embed
 
 ## Basic Usage
@@ -14,8 +17,8 @@ place the embed on to your page.
 ></script>
 ```
 
-This script tag is placed within your HTML at the desired location to place
-the embed.
+This script tag is placed within your HTML at the desired location to place the
+embed.
 
 Examples:
 
@@ -35,19 +38,19 @@ The script also adds a `ResizeObserver` to the container element, in order to
 automatically re-evaluate the container element sizing and the corresponding
 iframe in the case that a resize event occurs.
 
-If a different size embed is required, a new `HTMLIFrameElement` may be
-composed in order to mount the embed within the container.
+If a different size embed is required, a new `HTMLIFrameElement` may be composed
+in order to mount the embed within the container.
 
 The contents of the container element are replaced with the content as
 determined by the script.
 
 ### Container Element
 
-The `HTMLDivElement` is created as the outer container element for the
-embed, and is for containing the correct embed option.
+The `HTMLDivElement` is created as the outer container element for the embed,
+and is for containing the correct embed option.
 
-By default, without any configuration the script will automatically create
-the element as an immediate sibling to the script tag.
+By default, without any configuration the script will automatically create the
+element as an immediate sibling to the script tag.
 
 ```html
 <!-- Example of the container element created automatically -->
@@ -55,8 +58,8 @@ the element as an immediate sibling to the script tag.
 <div id="alpaca_itinerary123" class="alpacaContainer" style="...">...</div>
 ```
 
-The container element is then applied some basic style elements which are
-common to try and style the element as best it can for your HTML document.
+The container element is then applied some basic style elements which are common
+to try and style the element as best it can for your HTML document.
 
 Typically, the CSS applied is `display: float; min-height: 600px`, although this
 can change.
@@ -101,8 +104,8 @@ content.
 />
 ```
 
-The iframe will be added as the child of the container element, replacing
-any of the existing content with this element.
+The iframe will be added as the child of the container element, replacing any of
+the existing content with this element.
 
 Typically, the CSS applied is `flex: 1; border: 0`, although this can change.
 
@@ -128,8 +131,8 @@ if you are linking to them from your application.
 
 ### Deep Linking to a Location
 
-You can also modify the `src` attribute of the script tag in order to link to
-a deeper element within the embed.
+You can also modify the `src` attribute of the script tag in order to link to a
+deeper element within the embed.
 
 You will need to identify the itinerary location ID, which should appear to be
 similar to the format of `itinerary/123/location/234`.
@@ -140,8 +143,8 @@ https://made.withalpaca.travel/api/v3/embed/itinerary/123/location/234
 
 ### Controlling heights, widths and aspect ratios
 
-You can control the min/max width and height as well as an aspect ratio for
-the container that is created by the script.
+You can control the min/max width and height as well as an aspect ratio for the
+container that is created by the script.
 
 In order achieve this, you will need to pass in the values as query parameters
 to your script include;

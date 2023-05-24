@@ -1,3 +1,8 @@
+[//]: # "Title: oEmbed"
+[//]: # "Weight: 5"
+[//]: # "Layout: 1-col"
+[//]: # "TOC: false"
+
 # OEmbed
 
 ## What is oEmbed?
